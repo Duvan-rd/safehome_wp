@@ -1,0 +1,116 @@
+@media (max-width: 768px){
+    .menu-item-has-children{
+        .sub-menu{
+            position: relative;
+            width: 100%;
+            top: 0;
+            background-color: transparent;
+        }
+    }
+}
+
+@media (max-width: 480px){
+    
+    .container-top-header{
+        display: none;
+    }
+
+    .bottom-header{
+        .menu-principal{
+            text-align: center !important;
+        }
+
+        padding: .5em !important;
+    }
+
+    .static-header{
+        z-index: 2;
+    }
+    
+    .bottom-header.sticky-header{
+        .button-toggle-custom{
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+
+    .container-nav-header{
+        display: none;
+        padding: 0;
+
+        .nav{
+            flex-direction: column;
+            .menu-item{
+                padding: 0;
+
+                .nav-link{
+                    padding: 1rem;
+                }
+                &:nth-child(2n+1){
+                    background-color: rgba($color: #000000, $alpha: .05);
+                }
+            }
+        }
+    }
+
+    .widget-title{
+        margin-top: 2rem;
+        margin-bottom: 1rem !important;
+    }
+
+    .heading-services{
+        padding: 2rem 1rem;
+
+        h1{
+            font-size: 2rem !important;
+            line-height: 2.5rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .padding-section{
+        padding: 2em !important;
+    }
+
+    .row-logo-superior{
+        justify-content: space-between !important;
+    }
+
+    .menu-lateral{
+        width: 100%;
+        transition: all .3s;
+
+        .menu-item{
+            padding: .5em;
+            border-bottom: 1px solid #ccc;
+
+            &:last-child{
+                border-bottom: none;
+            }
+        }
+        .nav-link{
+            font-size: 1em;
+        }
+    }
+
+    .button-open-menu-responsive{
+        background-color: #fff;
+        padding: .5em;
+        border-top: 1px solid #ccc;
+        button{
+            background-color: transparent;
+            border: none;
+            color: #555555;
+            letter-spacing: 1px;
+            font-size: .8em;
+            font-weight: normal !important;
+            
+            i{
+                margin-right: .5em;
+            }
+        }
+    }
+    
+}
+

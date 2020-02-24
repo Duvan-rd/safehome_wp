@@ -1,0 +1,145 @@
+$p-color: #006e98
+$ph-color: #076082
+
+// GENERAL STYLE
+.button-icon
+    background-color: transparent !important
+    color: $p-color !important
+    border: none !important
+    &:hover
+        border: 1px solid $p-color !important
+.button-master
+    margin: 0 !important
+    padding: .8em 3em !important
+.button-master.button-rounded
+    border-radius: 2.5em !important
+.text-blue
+    color: #009BD7
+    font-size: 1.2em
+    a 
+        color: #ffffff
+        text-decoration: underline
+        transition: all .4s
+        &:hover
+            color: #009bd7
+.button-center
+    display: flex
+    justify-content: center
+.text-black
+    color: #000000 !important
+    font-weight: 700 !important
+    .fundador
+        color: #004D95
+        margin-top: 2em
+        font-size: 1.2em
+// TOP FOOTER
+.top-header
+    overflow: hidden
+    p
+        margin: 0
+        font-weight: 700
+    .popover-button
+        display: flex
+        align-items: center
+        position: relative
+        padding: 0 2em !important
+        font-size: 1.1em
+        a 
+            font-weight: 600
+            color: $p-color
+            transition: all .4s
+            &:hover
+                color: $ph-color
+        &::before
+           content: ''
+           position: absolute
+           width: 1px
+           height: 60px
+           background-color: #E3E3E3
+           right: 0
+    .link-facebook
+        margin-left: 2em
+    i 
+        font-size: 1.2em 
+// MENU
+.container-menu
+    display: flex
+    justify-content: center
+    .bottom-header
+        padding: 0 !important
+        width: 90%
+        margin-top: 2em
+        border-radius: 5px
+        background-color: rgba(0, 110, 152, .5)
+    .img-menu
+        background-color: #ffffff
+        display: flex
+        justify-content: center
+        padding: 1em 0
+        border-radius: 5px 0 0 5px
+        .img-brand
+            max-height: 55px
+    .menu-menu-principal-container
+        .nav-link
+            color: rgba(255, 255, 255, .5)
+            padding: 0 1.2em
+// HOME - AGENDAR CITA
+#agendar-cita
+    .button-content
+        display: flex
+        justify-content: center
+        margin-top: 2.5em
+    .form-control
+        background: transparent
+        height: 70px
+        color: #fff
+        &::placeholder
+            color: #fff
+// HOME BENEFICIOS
+.text-absolute
+    position: absolute !important
+    top: -10px
+// HOME PASO A PASO
+.paso-a-paso
+    .title-secondary
+        font-size: 1.4em
+        color: #009BD7
+// HOME SOBRE NOSOTROS
+.container-img
+    img 
+        width: 100%
+// HOME CONTACTO
+#contacto
+    .form-control
+        border: none
+        height: 70px
+    textarea
+        height: 200px !important
+        padding: 1em
+        line-height: 1.5em
+// FOOTER
+.top-footer
+    padding: 5em 0 !important
+    .widget-title
+        color: #ffffff !important
+        font-family: "Montserrat", Sans-serif !important
+        font-size: 1.5em !important
+    ul 
+        list-style: none
+        padding: 0
+        li 
+            margin-bottom: 1em
+            a 
+                color: #009BD7 !important
+                font-size: 1.2em
+                transition: all .4s
+                &:hover
+                    color: #1a5991 !important
+            i
+                color: #ffffff
+            .post-date
+                display: block
+                color: #c4c4c4
+    #nav_menu-2
+        .nav-link::before
+            content: ''
